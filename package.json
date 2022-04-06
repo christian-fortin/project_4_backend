@@ -1,0 +1,39 @@
+{
+  "name": "project_4",
+  "version": "1.0.0",
+  "description": "## Description:  I use to love the website \"StumbleUpon\" for it's ability to randomly send you to somewhere interesting. This project is meant to be my own version of \"StumbleUpon\". I want to create a very clean feed page with just a title and dots. I will also include a create page, a profile page, and a show page. Each dot is a link to a random place. Users will have the ability to create a dot and fill it with what ever link they want to.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-fortin/Project_4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-fortin/Project_4/issues"
+  },
+  "homepage": "https://github.com/christian-fortin/Project_4#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7",
+    "react-icons": "^4.3.1",
+    "react-toastify": "^8.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
